@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- 自定义打卡控件  (圆形水波纹控件) -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="circle_image_text_bottom" format ="string" />
+        <attr name="circle_image_text_bottom_size" format ="dimension"/>
+        <attr name="circle_image_text_bottom_color" format ="color"/>
+        <attr name="circle_image_text_top" format ="string"/>
+        <attr name="circle_image_text_top_size" format ="dimension"/>
+        <attr name="circle_image_text_top_color" format ="color"/>
+        <attr name="circle_backgroud_color_start" format ="color"/>
+        <attr name="circle_backgroud_color_end" format ="color"/>
+        <attr name="circle_backgroud_color_alpha" format ="integer"/>
+     </declare-styleable>
+   <!-- 
+    <declare-styleable name="CircleImageWaterRippleRelativeLayout">
+        <attr name="circle_image_text_bottom" format ="string" />
+        <attr name="circle_image_text_bottom_size" format ="dimension"/>
+        <attr name="circle_image_text_bottom_color" format ="color"/>
+        <attr name="circle_image_text_top" format ="string"/>
+        <attr name="circle_image_text_top_size" format ="dimension"/>
+        <attr name="circle_image_text_top_color" format ="color"/>
+    </declare-styleable>
+     -->
+</resources>
