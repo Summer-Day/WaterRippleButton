@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cw="http://schemas.android.com/apk/res/com.example.waterripplebutton"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <!-- android:src="@drawable/demo" 
+    <com.example.waterripplebutton.view.WaterRippleButtonView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/green" />
+
+
+    <com.example.waterripplebutton.view.CircleImageView
+        android:id="@+id/circleImageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+        -->
+<!-- 
+    <com.example.waterripplebutton.view.CircleImageWaterRippleRelativeLayout
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        cw:circle_image_text_bottom="签到"
+        cw:circle_image_text_bottom_color="@color/blue"
+        cw:circle_image_text_bottom_size="20px" >
+    </com.example.waterripplebutton.view.CircleImageWaterRippleRelativeLayout>
+
+    <com.example.waterripplebutton.view.RoundImageView
+        android:id="@+id/right_login_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/circleImageView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="27dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/yx" />
+         -->
+
+    <com.example.waterripplebutton.view.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@color/b1"
+        cw:circle_backgroud_color_alpha="50"
+        cw:circle_backgroud_color_end="@color/b1"
+        cw:circle_backgroud_color_start="@color/blue"
+        cw:circle_image_text_bottom="8:00上班"
+        cw:circle_image_text_bottom_color="@color/white"
+        cw:circle_image_text_bottom_size="20dp"
+        cw:circle_image_text_top="签到"
+        cw:circle_image_text_top_color="@color/white"
+        cw:circle_image_text_top_size="30dp" />
+
+    <com.example.waterripplebutton.view.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@color/b2"
+        cw:circle_backgroud_color_alpha="50"
+        cw:circle_backgroud_color_end="@color/b2"
+        cw:circle_backgroud_color_start="@color/blue"
+
+        />
+    
+</RelativeLayout>
